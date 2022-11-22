@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-23T00:42:21 IST" name="Suite" finished-at="2022-11-23T00:47:20 IST" duration-ms="299032">
+    <groups>
+    </groups>
+    <test started-at="2022-11-23T00:42:21 IST" name="Test" finished-at="2022-11-23T00:47:20 IST" duration-ms="299032">
+      <class name="com.qa.testLayer.PhoneTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-11-23T00:42:21 IST" name="start" finished-at="2022-11-23T00:42:21 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-11-23T00:42:21 IST" name="setProperty" finished-at="2022-11-23T00:42:55 IST" duration-ms="33151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyNexusPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-11-23T00:42:55 IST" name="buyNexusPhone" finished-at="2022-11-23T00:42:58 IST" duration-ms="3781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyNexusPhone -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-11-23T00:42:58 IST" name="closeeTab" finished-at="2022-11-23T00:43:19 IST" duration-ms="20641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-11-23T00:43:19 IST" name="setProperty" finished-at="2022-11-23T00:43:43 IST" duration-ms="24497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-11-23T00:43:43 IST" name="buyPhone" finished-at="2022-11-23T00:43:46 IST" duration-ms="2257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyPhone -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-11-23T00:43:46 IST" name="closeeTab" finished-at="2022-11-23T00:44:06 IST" duration-ms="20386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-11-23T00:44:06 IST" name="finish" finished-at="2022-11-23T00:44:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.qa.testLayer.PhoneTest -->
+      <class name="com.qa.testLayer.MoniterTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-11-23T00:45:42 IST" name="start" finished-at="2022-11-23T00:45:42 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-11-23T00:45:42 IST" name="setProperty" finished-at="2022-11-23T00:46:08 IST" duration-ms="26138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyAsusMoniter()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-11-23T00:46:08 IST" name="buyAsusMoniter" finished-at="2022-11-23T00:46:11 IST" duration-ms="3173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyAsusMoniter -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-11-23T00:46:11 IST" name="closeeTab" finished-at="2022-11-23T00:46:32 IST" duration-ms="20512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-11-23T00:46:32 IST" name="setProperty" finished-at="2022-11-23T00:46:56 IST" duration-ms="24512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyMoniter()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-11-23T00:46:56 IST" name="buyMoniter" finished-at="2022-11-23T00:46:59 IST" duration-ms="3360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyMoniter -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-11-23T00:46:59 IST" name="closeeTab" finished-at="2022-11-23T00:47:20 IST" duration-ms="20524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-11-23T00:47:20 IST" name="finish" finished-at="2022-11-23T00:47:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.qa.testLayer.MoniterTest -->
+      <class name="com.qa.testLayer.LaptopTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-11-23T00:44:06 IST" name="start" finished-at="2022-11-23T00:44:06 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-11-23T00:44:06 IST" name="setProperty" finished-at="2022-11-23T00:44:31 IST" duration-ms="24889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyDellLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-11-23T00:44:31 IST" name="buyDellLaptop" finished-at="2022-11-23T00:44:34 IST" duration-ms="3117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyDellLaptop -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-11-23T00:44:34 IST" name="closeeTab" finished-at="2022-11-23T00:44:55 IST" duration-ms="20558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-11-23T00:44:55 IST" name="setProperty" finished-at="2022-11-23T00:45:19 IST" duration-ms="23966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-11-23T00:45:19 IST" name="buyLaptop" finished-at="2022-11-23T00:45:21 IST" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyLaptop -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-11-23T00:45:21 IST" name="closeeTab" finished-at="2022-11-23T00:45:42 IST" duration-ms="20666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-11-23T00:45:42 IST" name="finish" finished-at="2022-11-23T00:45:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.qa.testLayer.LaptopTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
