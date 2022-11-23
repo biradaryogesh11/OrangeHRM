@@ -6,7 +6,7 @@ import com.qa.testBase.TestBase;
 
 public class LaptopTest extends TestBase
 {
-	@Test
+	@Test(groups= {"sanity"})
 	public void buyLaptop()
 	{
 		laptop.clickOnlaptopTab();
@@ -17,10 +17,10 @@ public class LaptopTest extends TestBase
 		logger.info("laptop is added to cart");
 		
 	}
-	@Test
+
+	@Test(groups= {"Regression","sanity"})
 	public void buyDellLaptop()
 	{
-		
 		laptop.clickOnlaptopTab();
 		logger.info("clicked on tab");
 		laptop.clickOnDellI7();;

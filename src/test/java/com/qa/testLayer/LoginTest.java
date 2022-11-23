@@ -6,10 +6,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qa.testBase.TestBase;
+import com.qa.utility.ExcelHandling;
 
 public class LoginTest extends TestBase
 {
-    @Test
+    @Test(dataProvider="excel",dataProviderClass=ExcelHandling.class)
 	public void loginToOrangeHrm() throws InterruptedException
 	{    Thread.sleep(2000);
     	 loginpage.clickOnLoginTab();

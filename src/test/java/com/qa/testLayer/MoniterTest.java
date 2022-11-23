@@ -7,7 +7,7 @@ import com.qa.testBase.TestBase;
 public class MoniterTest extends TestBase
 
 {
-	@Test
+	@Test(groups= {"Regression"})
 	public void buyMoniter()
 	{
 		moniter.clickOnMoniterTab();
@@ -17,7 +17,7 @@ public class MoniterTest extends TestBase
 		phonepage.clickOnAddToCartButton();
 		logger.info(" apple moniter added to cart ");
 	}
-	@Test
+	@Test(groups= {"sanity"})
 	public void buyAsusMoniter()
 	{
 		moniter.clickOnMoniterTab();
