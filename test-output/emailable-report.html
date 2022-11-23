@@ -9,15 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">299,032</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">273</td><td>Regression, sanity, Daily build</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.testLayer.LaptopTest</td><td><a href="#m0">buyDellLaptop</a></td><td rowspan="1">1669144471551</td><td rowspan="1">3117</td></tr><tr class="passedeven"><td><a href="#m1">buyLaptop</a></td><td rowspan="1">1669144519204</td><td rowspan="1">2378</td></tr><tr class="passedodd"><td rowspan="2">com.qa.testLayer.MoniterTest</td><td><a href="#m2">buyAsusMoniter</a></td><td rowspan="1">1669144568406</td><td rowspan="1">3173</td></tr><tr class="passedodd"><td><a href="#m3">buyMoniter</a></td><td rowspan="1">1669144616612</td><td rowspan="1">3360</td></tr><tr class="passedeven"><td rowspan="2">com.qa.testLayer.PhoneTest</td><td><a href="#m4">buyNexusPhone</a></td><td rowspan="1">1669144375015</td><td rowspan="1">3781</td></tr><tr class="passedeven"><td><a href="#m5">buyPhone</a></td><td rowspan="1">1669144423953</td><td rowspan="1">2257</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.qa.testLayer.LaptopTest</td><td><a href="#m0">buyDellLaptop</a></td><td rowspan="1">1669212334616</td><td rowspan="1">43</td></tr><tr class="failedeven"><td><a href="#m1">buyLaptop</a></td><td rowspan="1">1669212334676</td><td rowspan="1">9</td></tr><tr class="failedodd"><td rowspan="2">com.qa.testLayer.MoniterTest</td><td><a href="#m2">buyAsusMoniter</a></td><td rowspan="1">1669212334728</td><td rowspan="1">8</td></tr><tr class="failedodd"><td><a href="#m3">buyMoniter</a></td><td rowspan="1">1669212334741</td><td rowspan="1">17</td></tr><tr class="failedeven"><td rowspan="2">com.qa.testLayer.PhoneTest</td><td><a href="#m4">buyNexusPhone</a></td><td rowspan="1">1669212334707</td><td rowspan="1">4</td></tr><tr class="failedeven"><td><a href="#m5">buyPhone</a></td><td rowspan="1">1669212334720</td><td rowspan="1">4</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.qa.testLayer.LaptopTest#buyDellLaptop</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.testLayer.LaptopTest#buyLaptop</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.qa.testLayer.MoniterTest#buyAsusMoniter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.qa.testLayer.MoniterTest#buyMoniter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.qa.testLayer.PhoneTest#buyNexusPhone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.qa.testLayer.PhoneTest#buyPhone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.qa.testLayer.LaptopTest#buyDellLaptop</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.qa.pageLayer.LaptopPage.clickOnlaptopTab()&quot; because &quot;com.qa.testLayer.LaptopTest.laptop&quot; is null
+	at com.qa.testLayer.LaptopTest.buyDellLaptop(LaptopTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.testLayer.LaptopTest#buyLaptop</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.qa.pageLayer.LaptopPage.clickOnlaptopTab()&quot; because &quot;com.qa.testLayer.LaptopTest.laptop&quot; is null
+	at com.qa.testLayer.LaptopTest.buyLaptop(LaptopTest.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.testLayer.MoniterTest#buyAsusMoniter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.qa.pageLayer.MoniterPage.clickOnMoniterTab()&quot; because &quot;com.qa.testLayer.MoniterTest.moniter&quot; is null
+	at com.qa.testLayer.MoniterTest.buyAsusMoniter(MoniterTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.testLayer.MoniterTest#buyMoniter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.qa.pageLayer.MoniterPage.clickOnMoniterTab()&quot; because &quot;com.qa.testLayer.MoniterTest.moniter&quot; is null
+	at com.qa.testLayer.MoniterTest.buyMoniter(MoniterTest.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.testLayer.PhoneTest#buyNexusPhone</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.qa.pageLayer.PhonePage.clickOnPhoneTab()&quot; because &quot;com.qa.testLayer.PhoneTest.phonepage&quot; is null
+	at com.qa.testLayer.PhoneTest.buyNexusPhone(PhoneTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.testLayer.PhoneTest#buyPhone</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.qa.pageLayer.PhonePage.clickOnPhoneTab()&quot; because &quot;com.qa.testLayer.PhoneTest.phonepage&quot; is null
+	at com.qa.testLayer.PhoneTest.buyPhone(PhoneTest.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

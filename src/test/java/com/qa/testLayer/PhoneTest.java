@@ -6,7 +6,7 @@ import com.qa.testBase.TestBase;
 
 public class PhoneTest extends TestBase
 {
-	@Test
+	@Test(groups= {"sanity","Regression"})
 	public void buyPhone()
 	{
 		phonepage.clickOnPhoneTab();
@@ -17,7 +17,7 @@ public class PhoneTest extends TestBase
 		logger.info("added to cart");
 
 	}
-	@Test
+	@Test(groups= {"sanity"})
 	public void buyNexusPhone()
 	{
 		phonepage.clickOnPhoneTab();
