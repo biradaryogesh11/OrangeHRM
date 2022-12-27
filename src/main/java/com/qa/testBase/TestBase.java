@@ -71,7 +71,7 @@ public class TestBase
 		driver.get("https://demoblaze.com/index.html");
 		logger.info("Url is entered");
 		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
+ 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		Thread.sleep(2000);

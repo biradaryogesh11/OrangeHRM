@@ -30,6 +30,7 @@ public class LaptopPage extends TestBase
 	private WebElement dell_I7;
 	public void clickOnDellI7()
 	{
+		
 		dell_I7.click();
 	}
 	

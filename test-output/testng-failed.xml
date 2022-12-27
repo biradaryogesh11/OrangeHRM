@@ -29,4 +29,30 @@
       </class> <!-- com.qa.testLayer.PhoneTest -->
     </classes>
   </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qa.testLayer.LaptopTest">
+        <methods>
+          <include name="buyDellLaptop"/>
+          <include name="buyLaptop"/>
+        </methods>
+      </class> <!-- com.qa.testLayer.LaptopTest -->
+      <class name="com.qa.testLayer.MoniterTest">
+        <methods>
+          <include name="buyAsusMoniter"/>
+        </methods>
+      </class> <!-- com.qa.testLayer.MoniterTest -->
+      <class name="com.qa.testLayer.PhoneTest">
+        <methods>
+          <include name="buyNexusPhone"/>
+          <include name="buyPhone"/>
+        </methods>
+      </class> <!-- com.qa.testLayer.PhoneTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,268 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="0" failed="6" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-23T19:35:34 IST" name="Suite" finished-at="2022-11-23T19:35:34 IST" duration-ms="273">
+  <suite started-at="2022-12-27T23:41:37 IST" name="Suite" finished-at="2022-12-27T23:46:29 IST" duration-ms="291800">
     <groups>
       <group name="Regression">
-        <method signature="LaptopTest.buyDellLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@368f2016]" name="buyDellLaptop" class="com.qa.testLayer.LaptopTest"/>
-        <method signature="MoniterTest.buyMoniter()[pri:0, instance:com.qa.testLayer.MoniterTest@235834f2]" name="buyMoniter" class="com.qa.testLayer.MoniterTest"/>
-        <method signature="PhoneTest.buyPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@3270d194]" name="buyPhone" class="com.qa.testLayer.PhoneTest"/>
+        <method signature="LaptopTest.buyDellLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" name="buyDellLaptop" class="com.qa.testLayer.LaptopTest"/>
+        <method signature="MoniterTest.buyMoniter()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" name="buyMoniter" class="com.qa.testLayer.MoniterTest"/>
+        <method signature="PhoneTest.buyPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" name="buyPhone" class="com.qa.testLayer.PhoneTest"/>
       </group> <!-- Regression -->
       <group name="sanity">
-        <method signature="LaptopTest.buyDellLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@368f2016]" name="buyDellLaptop" class="com.qa.testLayer.LaptopTest"/>
-        <method signature="LaptopTest.buyLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@368f2016]" name="buyLaptop" class="com.qa.testLayer.LaptopTest"/>
-        <method signature="MoniterTest.buyAsusMoniter()[pri:0, instance:com.qa.testLayer.MoniterTest@235834f2]" name="buyAsusMoniter" class="com.qa.testLayer.MoniterTest"/>
-        <method signature="PhoneTest.buyNexusPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@3270d194]" name="buyNexusPhone" class="com.qa.testLayer.PhoneTest"/>
-        <method signature="PhoneTest.buyPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@3270d194]" name="buyPhone" class="com.qa.testLayer.PhoneTest"/>
+        <method signature="LaptopTest.buyDellLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" name="buyDellLaptop" class="com.qa.testLayer.LaptopTest"/>
+        <method signature="LaptopTest.buyLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" name="buyLaptop" class="com.qa.testLayer.LaptopTest"/>
+        <method signature="MoniterTest.buyAsusMoniter()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" name="buyAsusMoniter" class="com.qa.testLayer.MoniterTest"/>
+        <method signature="PhoneTest.buyNexusPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" name="buyNexusPhone" class="com.qa.testLayer.PhoneTest"/>
+        <method signature="PhoneTest.buyPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" name="buyPhone" class="com.qa.testLayer.PhoneTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-11-23T19:35:34 IST" name="Test" finished-at="2022-11-23T19:35:34 IST" duration-ms="273">
+    <test started-at="2022-12-27T23:41:37 IST" name="Test" finished-at="2022-12-27T23:46:29 IST" duration-ms="291800">
       <class name="com.qa.testLayer.PhoneTest">
-        <test-method signature="buyNexusPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@3270d194]" started-at="2022-11-23T19:35:34 IST" name="buyNexusPhone" finished-at="2022-11-23T19:35:34 IST" duration-ms="4" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.qa.pageLayer.PhonePage.clickOnPhoneTab()" because "com.qa.testLayer.PhoneTest.phonepage" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.qa.pageLayer.PhonePage.clickOnPhoneTab()" because "com.qa.testLayer.PhoneTest.phonepage" is null
-at com.qa.testLayer.PhoneTest.buyNexusPhone(PhoneTest.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-12-27T23:41:37 IST" name="start" finished-at="2022-12-27T23:41:37 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-12-27T23:41:37 IST" name="setProperty" finished-at="2022-12-27T23:42:05 IST" duration-ms="27774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyNexusPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-12-27T23:42:05 IST" name="buyNexusPhone" finished-at="2022-12-27T23:42:07 IST" duration-ms="2057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyNexusPhone -->
-        <test-method signature="buyPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@3270d194]" started-at="2022-11-23T19:35:34 IST" name="buyPhone" finished-at="2022-11-23T19:35:34 IST" duration-ms="4" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.qa.pageLayer.PhonePage.clickOnPhoneTab()" because "com.qa.testLayer.PhoneTest.phonepage" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.qa.pageLayer.PhonePage.clickOnPhoneTab()" because "com.qa.testLayer.PhoneTest.phonepage" is null
-at com.qa.testLayer.PhoneTest.buyPhone(PhoneTest.java:12)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-12-27T23:42:07 IST" name="closeeTab" finished-at="2022-12-27T23:42:28 IST" duration-ms="20521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-12-27T23:42:28 IST" name="setProperty" finished-at="2022-12-27T23:42:52 IST" duration-ms="24162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyPhone()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-12-27T23:42:52 IST" name="buyPhone" finished-at="2022-12-27T23:42:54 IST" duration-ms="2321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyPhone -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-12-27T23:42:54 IST" name="closeeTab" finished-at="2022-12-27T23:43:15 IST" duration-ms="20420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.qa.testLayer.PhoneTest@71d44a3]" started-at="2022-12-27T23:43:15 IST" name="finish" finished-at="2022-12-27T23:43:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
       </class> <!-- com.qa.testLayer.PhoneTest -->
       <class name="com.qa.testLayer.MoniterTest">
-        <test-method signature="buyAsusMoniter()[pri:0, instance:com.qa.testLayer.MoniterTest@235834f2]" started-at="2022-11-23T19:35:34 IST" name="buyAsusMoniter" finished-at="2022-11-23T19:35:34 IST" duration-ms="8" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.qa.pageLayer.MoniterPage.clickOnMoniterTab()" because "com.qa.testLayer.MoniterTest.moniter" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.qa.pageLayer.MoniterPage.clickOnMoniterTab()" because "com.qa.testLayer.MoniterTest.moniter" is null
-at com.qa.testLayer.MoniterTest.buyAsusMoniter(MoniterTest.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-12-27T23:44:50 IST" name="start" finished-at="2022-12-27T23:44:50 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-12-27T23:44:50 IST" name="setProperty" finished-at="2022-12-27T23:45:14 IST" duration-ms="24461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyAsusMoniter()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-12-27T23:45:14 IST" name="buyAsusMoniter" finished-at="2022-12-27T23:45:18 IST" duration-ms="4154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyAsusMoniter -->
-        <test-method signature="buyMoniter()[pri:0, instance:com.qa.testLayer.MoniterTest@235834f2]" started-at="2022-11-23T19:35:34 IST" name="buyMoniter" finished-at="2022-11-23T19:35:34 IST" duration-ms="17" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.qa.pageLayer.MoniterPage.clickOnMoniterTab()" because "com.qa.testLayer.MoniterTest.moniter" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.qa.pageLayer.MoniterPage.clickOnMoniterTab()" because "com.qa.testLayer.MoniterTest.moniter" is null
-at com.qa.testLayer.MoniterTest.buyMoniter(MoniterTest.java:13)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-12-27T23:45:18 IST" name="closeeTab" finished-at="2022-12-27T23:45:39 IST" duration-ms="20452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-12-27T23:45:39 IST" name="setProperty" finished-at="2022-12-27T23:46:04 IST" duration-ms="25217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyMoniter()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-12-27T23:46:04 IST" name="buyMoniter" finished-at="2022-12-27T23:46:08 IST" duration-ms="4211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyMoniter -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-12-27T23:46:08 IST" name="closeeTab" finished-at="2022-12-27T23:46:29 IST" duration-ms="20386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.qa.testLayer.MoniterTest@3590fc5b]" started-at="2022-12-27T23:46:29 IST" name="finish" finished-at="2022-12-27T23:46:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
       </class> <!-- com.qa.testLayer.MoniterTest -->
       <class name="com.qa.testLayer.LaptopTest">
-        <test-method signature="buyDellLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@368f2016]" started-at="2022-11-23T19:35:34 IST" name="buyDellLaptop" finished-at="2022-11-23T19:35:34 IST" duration-ms="43" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.qa.pageLayer.LaptopPage.clickOnlaptopTab()" because "com.qa.testLayer.LaptopTest.laptop" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.qa.pageLayer.LaptopPage.clickOnlaptopTab()" because "com.qa.testLayer.LaptopTest.laptop" is null
-at com.qa.testLayer.LaptopTest.buyDellLaptop(LaptopTest.java:24)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-12-27T23:43:15 IST" name="start" finished-at="2022-12-27T23:43:15 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-12-27T23:43:15 IST" name="setProperty" finished-at="2022-12-27T23:43:38 IST" duration-ms="23315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyDellLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-12-27T23:43:38 IST" name="buyDellLaptop" finished-at="2022-12-27T23:43:42 IST" duration-ms="3867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyDellLaptop -->
-        <test-method signature="buyLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@368f2016]" started-at="2022-11-23T19:35:34 IST" name="buyLaptop" finished-at="2022-11-23T19:35:34 IST" duration-ms="9" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.qa.pageLayer.LaptopPage.clickOnlaptopTab()" because "com.qa.testLayer.LaptopTest.laptop" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.qa.pageLayer.LaptopPage.clickOnlaptopTab()" because "com.qa.testLayer.LaptopTest.laptop" is null
-at com.qa.testLayer.LaptopTest.buyLaptop(LaptopTest.java:12)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-12-27T23:43:42 IST" name="closeeTab" finished-at="2022-12-27T23:44:02 IST" duration-ms="20478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-12-27T23:44:02 IST" name="setProperty" finished-at="2022-12-27T23:44:26 IST" duration-ms="23959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="buyLaptop()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-12-27T23:44:26 IST" name="buyLaptop" finished-at="2022-12-27T23:44:29 IST" duration-ms="3139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyLaptop -->
+        <test-method is-config="true" signature="closeeTab()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-12-27T23:44:29 IST" name="closeeTab" finished-at="2022-12-27T23:44:50 IST" duration-ms="20507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeeTab -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.qa.testLayer.LaptopTest@41d477ed]" started-at="2022-12-27T23:44:50 IST" name="finish" finished-at="2022-12-27T23:44:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
       </class> <!-- com.qa.testLayer.LaptopTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

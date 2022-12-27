@@ -391,3 +391,122 @@
 2022-11-23 19:10:36,921 [main] INFO OrangeHRM - user id is entered
 2022-11-23 19:10:37,083 [main] INFO OrangeHRM - password is entered
 2022-11-23 19:10:39,198 [main] INFO OrangeHRM - Click on login button
+2022-11-27 01:05:11,394 [main] INFO OrangeHRM - ==============Executaion Started===========
+2022-11-27 01:08:28,597 [main] INFO OrangeHRM - ==============Executaion Started===========
+2022-11-27 01:09:08,805 [main] INFO OrangeHRM - ==============Executaion Started===========
+2022-11-27 01:21:15,409 [main] INFO OrangeHRM - Url is entered
+2022-12-27 23:23:56,888 [TestNG-test=Test1-1] INFO OrangeHRM - ==============Executaion Started===========
+2022-12-27 23:23:56,927 [TestNG-test=Test1-2] INFO OrangeHRM - ==============Executaion Started===========
+2022-12-27 23:24:11,559 [TestNG-test=Test1-2] INFO OrangeHRM - Url is entered
+2022-12-27 23:24:11,720 [TestNG-test=Test1-1] INFO OrangeHRM - Url is entered
+2022-12-27 23:24:15,765 [TestNG-test=Test1-1] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:24:15,771 [TestNG-test=Test1-1] INFO OrangeHRM - Test method is skipped
+2022-12-27 23:24:15,785 [TestNG-test=Test1-1] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:24:15,791 [TestNG-test=Test1-1] INFO OrangeHRM - Test method is skipped
+2022-12-27 23:24:18,832 [TestNG-test=Test1-2] INFO OrangeHRM - user id is entered
+2022-12-27 23:24:19,056 [TestNG-test=Test1-2] INFO OrangeHRM - password is entered
+2022-12-27 23:24:21,300 [TestNG-test=Test1-2] INFO OrangeHRM - Click on login button
+2022-12-27 23:24:31,430 [TestNG-test=Test1-2] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:24:31,579 [TestNG-test=Test1-2] INFO OrangeHRM - Clicked on phone tab
+2022-12-27 23:24:35,000 [TestNG-test=Test1-2] INFO OrangeHRM - Clicked on samsung mobile
+2022-12-27 23:24:36,487 [TestNG-test=Test1-2] INFO OrangeHRM - added to cart
+2022-12-27 23:24:36,503 [TestNG-test=Test1-2] INFO OrangeHRM - Test case executaion successful
+2022-12-27 23:25:03,971 [TestNG-test=Test1-2] INFO OrangeHRM - Url is entered
+2022-12-27 23:25:10,554 [TestNG-test=Test1-2] INFO OrangeHRM - user id is entered
+2022-12-27 23:25:10,778 [TestNG-test=Test1-2] INFO OrangeHRM - password is entered
+2022-12-27 23:25:12,918 [TestNG-test=Test1-2] INFO OrangeHRM - Click on login button
+2022-12-27 23:25:23,029 [TestNG-test=Test1-2] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:25:23,147 [TestNG-test=Test1-2] INFO OrangeHRM - Clicked on phone tab
+2022-12-27 23:25:24,775 [TestNG-test=Test1-2] INFO OrangeHRM - Clicked on samsung mobile
+2022-12-27 23:25:25,640 [TestNG-test=Test1-2] INFO OrangeHRM - added to cart
+2022-12-27 23:25:25,646 [TestNG-test=Test1-2] INFO OrangeHRM - Test case executaion successful
+2022-12-27 23:25:46,322 [TestNG-test=Test1-2] INFO OrangeHRM - ==============Executaion finished===========
+2022-12-27 23:25:46,480 [TestNG-test=Test2-2] INFO OrangeHRM - ==============Executaion Started===========
+2022-12-27 23:25:46,502 [TestNG-test=Test2-1] INFO OrangeHRM - ==============Executaion Started===========
+2022-12-27 23:25:54,566 [TestNG-test=Test2-2] INFO OrangeHRM - Url is entered
+2022-12-27 23:25:57,565 [TestNG-test=Test2-1] INFO OrangeHRM - Url is entered
+2022-12-27 23:26:01,246 [TestNG-test=Test2-1] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:26:01,256 [TestNG-test=Test2-1] INFO OrangeHRM - Test method is skipped
+2022-12-27 23:26:01,269 [TestNG-test=Test2-1] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:26:01,275 [TestNG-test=Test2-1] INFO OrangeHRM - Test method is skipped
+2022-12-27 23:26:04,264 [TestNG-test=Test2-2] INFO OrangeHRM - user id is entered
+2022-12-27 23:26:04,419 [TestNG-test=Test2-2] INFO OrangeHRM - password is entered
+2022-12-27 23:26:06,533 [TestNG-test=Test2-2] INFO OrangeHRM - Click on login button
+2022-12-27 23:26:16,644 [TestNG-test=Test2-2] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:26:16,653 [TestNG-test=Test2-2] INFO OrangeHRM - Test method is skipped
+2022-12-27 23:26:16,693 [TestNG-test=Test2-2] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:26:16,707 [TestNG-test=Test2-2] INFO OrangeHRM - Test method is skipped
+2022-12-27 23:35:22,804 [TestNG-test=Test1-1] INFO OrangeHRM - ==============Executaion Started===========
+2022-12-27 23:35:22,828 [TestNG-test=Test1-2] INFO OrangeHRM - ==============Executaion Started===========
+2022-12-27 23:35:35,747 [TestNG-test=Test1-2] INFO OrangeHRM - Url is entered
+2022-12-27 23:35:36,079 [TestNG-test=Test1-1] INFO OrangeHRM - Url is entered
+2022-12-27 23:35:36,190 [TestNG-test=Test1-2] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:35:36,193 [TestNG-test=Test1-1] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:35:36,197 [TestNG-test=Test1-2] INFO OrangeHRM - Test method is skipped
+2022-12-27 23:35:36,199 [TestNG-test=Test1-1] INFO OrangeHRM - Test method is skipped
+2022-12-27 23:35:36,253 [TestNG-test=Test1-2] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:35:36,264 [TestNG-test=Test1-2] INFO OrangeHRM - Test method is skipped
+2022-12-27 23:35:36,256 [TestNG-test=Test1-1] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:35:36,272 [TestNG-test=Test1-1] INFO OrangeHRM - Test method is skipped
+2022-12-27 23:35:36,921 [TestNG-test=Test2-1] INFO OrangeHRM - ==============Executaion Started===========
+2022-12-27 23:35:37,020 [TestNG-test=Test2-2] INFO OrangeHRM - ==============Executaion Started===========
+2022-12-27 23:41:37,706 [main] INFO OrangeHRM - ==============Executaion Started===========
+2022-12-27 23:41:46,611 [main] INFO OrangeHRM - Url is entered
+2022-12-27 23:41:53,103 [main] INFO OrangeHRM - user id is entered
+2022-12-27 23:41:53,262 [main] INFO OrangeHRM - password is entered
+2022-12-27 23:41:55,377 [main] INFO OrangeHRM - Click on login button
+2022-12-27 23:42:05,521 [main] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:42:05,632 [main] INFO OrangeHRM - Clicked on phone tab
+2022-12-27 23:42:06,734 [main] INFO OrangeHRM - Clicked on samsung mobile
+2022-12-27 23:42:07,562 [main] INFO OrangeHRM - added to cart
+2022-12-27 23:42:07,577 [main] INFO OrangeHRM - Test case executaion successful
+2022-12-27 23:42:33,351 [main] INFO OrangeHRM - Url is entered
+2022-12-27 23:42:39,911 [main] INFO OrangeHRM - user id is entered
+2022-12-27 23:42:40,059 [main] INFO OrangeHRM - password is entered
+2022-12-27 23:42:42,164 [main] INFO OrangeHRM - Click on login button
+2022-12-27 23:42:52,267 [main] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:42:52,383 [main] INFO OrangeHRM - Clicked on phone tab
+2022-12-27 23:42:53,373 [main] INFO OrangeHRM - Clicked on samsung mobile
+2022-12-27 23:42:54,584 [main] INFO OrangeHRM - added to cart
+2022-12-27 23:42:54,591 [main] INFO OrangeHRM - Test case executaion successful
+2022-12-27 23:43:15,022 [main] INFO OrangeHRM - ==============Executaion finished===========
+2022-12-27 23:43:15,037 [main] INFO OrangeHRM - ==============Executaion Started===========
+2022-12-27 23:43:19,523 [main] INFO OrangeHRM - Url is entered
+2022-12-27 23:43:25,987 [main] INFO OrangeHRM - user id is entered
+2022-12-27 23:43:26,155 [main] INFO OrangeHRM - password is entered
+2022-12-27 23:43:28,264 [main] INFO OrangeHRM - Click on login button
+2022-12-27 23:43:38,355 [main] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:43:38,522 [main] INFO OrangeHRM - clicked on tab
+2022-12-27 23:43:40,997 [main] INFO OrangeHRM - clicked on Dell I7
+2022-12-27 23:43:42,218 [main] INFO OrangeHRM - laptop is added to cart
+2022-12-27 23:43:42,227 [main] INFO OrangeHRM - Test case executaion successful
+2022-12-27 23:44:07,426 [main] INFO OrangeHRM - Url is entered
+2022-12-27 23:44:14,140 [main] INFO OrangeHRM - user id is entered
+2022-12-27 23:44:14,339 [main] INFO OrangeHRM - password is entered
+2022-12-27 23:44:16,474 [main] INFO OrangeHRM - Click on login button
+2022-12-27 23:44:26,671 [main] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:44:26,870 [main] INFO OrangeHRM - clicked on tab
+2022-12-27 23:44:28,179 [main] INFO OrangeHRM - clicked on sony i5
+2022-12-27 23:44:29,805 [main] INFO OrangeHRM - laptop is added to cart
+2022-12-27 23:44:29,810 [main] INFO OrangeHRM - Test case executaion successful
+2022-12-27 23:44:50,324 [main] INFO OrangeHRM - ==============Executaion finished===========
+2022-12-27 23:44:50,336 [main] INFO OrangeHRM - ==============Executaion Started===========
+2022-12-27 23:44:55,732 [main] INFO OrangeHRM - Url is entered
+2022-12-27 23:45:02,266 [main] INFO OrangeHRM - user id is entered
+2022-12-27 23:45:02,534 [main] INFO OrangeHRM - password is entered
+2022-12-27 23:45:04,671 [main] INFO OrangeHRM - Click on login button
+2022-12-27 23:45:14,799 [main] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:45:14,942 [main] INFO OrangeHRM - cliked on apple tab
+2022-12-27 23:45:17,843 [main] INFO OrangeHRM - clicked on asus moniter 
+2022-12-27 23:45:18,950 [main] INFO OrangeHRM -  apple moniter added to cart 
+2022-12-27 23:45:18,956 [main] INFO OrangeHRM - Test case executaion successful
+2022-12-27 23:45:45,578 [main] INFO OrangeHRM - Url is entered
+2022-12-27 23:45:52,090 [main] INFO OrangeHRM - user id is entered
+2022-12-27 23:45:52,408 [main] INFO OrangeHRM - password is entered
+2022-12-27 23:45:54,512 [main] INFO OrangeHRM - Click on login button
+2022-12-27 23:46:04,633 [main] INFO OrangeHRM - Test case executaion started
+2022-12-27 23:46:04,747 [main] INFO OrangeHRM - cliked on apple tab
+2022-12-27 23:46:07,247 [main] INFO OrangeHRM - clicked on apple moniter 
+2022-12-27 23:46:08,842 [main] INFO OrangeHRM -  apple moniter added to cart 
+2022-12-27 23:46:08,845 [main] INFO OrangeHRM - Test case executaion successful
+2022-12-27 23:46:29,232 [main] INFO OrangeHRM - ==============Executaion finished===========
